@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "776927932133",
+    "firebase_url": "https://loginsupreme-693e2.firebaseio.com",
+    "project_id": "loginsupreme-693e2",
+    "storage_bucket": "loginsupreme-693e2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:776927932133:android:4e229e86587be8e8",
+        "android_client_info": {
+          "package_name": "studios.codelight.smartlogin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "776927932133-b5iulq6vrv86gnk0tej7pcjvv0u4fnpi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDu2FlQkpsuyjTnXH2zL-EjHZ8wQEfpNLE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

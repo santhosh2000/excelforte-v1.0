@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="studios.codelight.smartlogin">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id"
+            tools:replace="android:value" />
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            tools:replace="android:theme" />
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SignUpActivity"
+            android:label="ExcelForte SignUp">
+        </activity>
+        <activity
+            android:name=".WelcomeActivity"
+            android:label="ExcelForte">
+        </activity>
+        <activity
+            android:name=".GoogleSignInActivity"
+            android:label="ExcelForte Google Sign-In">
+        </activity>
+        <activity
+            android:name=".FacebookLoginActivity"
+            android:label="ExcelForte Facebook Sign-In">
+        </activity>
+        <activity
+            android:name=".ResetPasswordActivity"
+            android:label="ExcelForte Facebook Sign-In">
+        </activity>
+    </application>
+
+</manifest>
